@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    /* COLORS */
+    --yellow: hsl(47, 88%, 63%);
+    --card-bg:  hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+    /* FONTS */
+    --fs-normal: 1rem;
+    --fs-small: .850rem;
+    --fs-xsmall: .7rem;
+    /* OTHER */
+    --card-padding: 1.3rem;
+    --card-max-width: 24rem;
+    --avatar-img-size: 2rem;
+}
+/* RESET */
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+/* UTILITIES */
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.1rem;
+}
+.flexrow {
+    display: flex;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    place-content: center;
+}
+.spacing {
+    padding-inline-start: .1rem;
+
+}
+.margin-start {
+    margin-inline-start: .1rem;
+}
+/* STYLES */
+.card-wrapper {
+    min-height: 100vh;
+    background-color: var(--yellow);
+}
+.card {
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--card-bg);
+    padding: var(--card-padding);
+    max-width: var(--card-max-width);
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: 1rem 1rem 0 var(--black);
+
+}
+.card img {
+    align-self: center;
+    border-radius: 1rem;
+    margin-block: .350rem;
+
+}
+.activity {
+    font-size: var(--fs-small);
+    background-color: var(--yellow);
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+    font-weight: 800;
+}
+.date {
+    font-size: var(--fs-small);
+    font-weight: 700;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.description {
+    color: var(--grey);
+    font-size: var(--fs-normal);
+    font-weight: 500;
+}
+.avatar {
+    gap: .6rem;
+}
+.avatar img {
+    max-width: var(--avatar-img-size);
+}
+.avatar .name {
+    font-weight: 800;
+    font-size: var(--fs-small);
+}
+@media (max-width: 25rem) {
+    :root {
+        --font-normal: 0.9rem;
+        --font-small: 0.750rem;
+        --font-xsmall: 0.6rem;
+        --card-padding: 1rem;
+        --card-max-width: 20rem;
+        --avatar-img-size: 1.5rem;
+
+    }
+
+}
