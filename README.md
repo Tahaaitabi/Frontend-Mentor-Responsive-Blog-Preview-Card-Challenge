@@ -8,13 +8,12 @@ To address the scaling challenge, I adopted a new method. I encapsulated my code
 
 Here's the CSS that I used to do this in case you'd like to use it:
 
-~~~css
-.container {
+~~~.container {
     background-image: url(''); /* Path to the desktop design here or whichever design you're using */
     background-size: cover;
     background-position: center;
     opacity: 0.5; 
-} ~~~
+}~~~
 
 
 Initially, I experimented with the "Pixel Perfect" Chrome extension, as suggested by [Ezekiel225](https://github.com/Ezekiel225). While helpful initially, I encountered scaling issues that led me to explore alternative tracing methods. Though not a perfect solution, this approach brought me closer to achieving a 100% match with the design, providing valuable learning experiences along the way. At best, I think this way of doing it has bought me a little over 80% closer to the original. Not 100% but better than before!
