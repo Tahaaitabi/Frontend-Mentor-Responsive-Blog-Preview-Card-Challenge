@@ -62,7 +62,7 @@ img {
     max-width: var(--card-max-width);
     border-radius: 1rem;
     border: 1px solid black;
-    box-shadow: 1rem 1rem 0 var(--black);
+    box-shadow: .5rem .5rem 0 var(--black);
 
 }
 .card img {
