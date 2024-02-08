@@ -22,8 +22,6 @@ Initially, I experimented with the "Pixel Perfect" Chrome extension, as suggeste
 ## Challenges Faced
 One challenge I encountered was optimizing the layout for mobile views. Through research, I discovered the versatility of using `:root` variables to scale elements uniformly. While effective for the majority of adjustments, I'm open to feedback on whether this method aligns with best practices.
 
-I'm grateful to Frontend Mentor for this engaging challenge. It provided an avenue for growth and experimentation, enabling me to refine my CSS skills and explore new techniques. Moving forward, I remain committed to continuous learning and improvement in frontend development.
-
 Your feedback and insights are always appreciated.
 
 Thank you,  
