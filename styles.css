@@ -67,7 +67,7 @@ img {
 }
 .card img {
     align-self: center;
-    border-radius: 1rem;
+    border-radius: .5rem;
     margin-block: .350rem;
 
 }
